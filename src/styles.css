@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Header {
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-size: 60px;
+}
+
+.AboutMe{
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Age:hover{
+  text-shadow: 1px 1px #FF0000;
+}
+
+.Contaenir_Image{
+  text-align: center;
+  border-radius: 30px;
+}
+
+.Contaenir_Image .Image{
+  font-family: 'Caveat', cursive;
+  border-radius: 30px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: solid black 1px;
+  padding: 2px
+}
+
+.Contaenir_Image .Title{
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
+
+.Footer{
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(116, 116, 126);
+}
+.Footer:hover{
+  color: black;
+  cursor: pointer;
+}
